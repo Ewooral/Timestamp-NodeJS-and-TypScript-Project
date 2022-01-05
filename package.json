@@ -10,7 +10,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node dist/app.js",
-    "dev": "nodemon src/app.ts"
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
