@@ -8,5 +8,6 @@ yarn add express yup config cors express mongoose pino pino-pretty dayjs bcrypt 
 yarn add @types/body-parser @types/config @types/cors @types/express @types/node @types/yup @types/pino @types/mongoose @types/bcrypt @types/jsonwebtoken @types/lodash @types/nanoid ts-node typescript-D 
 
 # To run the Server:
-* first download all depencies in the package.json file.
+* first download all dependencies in the package.json file.
 * type: "npm run dev"
+* API's endpoint: http://localhost:3000/api/timestamp/
