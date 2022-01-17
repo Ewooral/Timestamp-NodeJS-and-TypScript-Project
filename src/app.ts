@@ -35,3 +35,19 @@ app.get('/api/timestamp/',  (Request: any, Response: any): any =>{
     responseObject['Unix Epoch Timestamp:'] = new Date().getTime();
     Response.json(responseObject);
 });
+
+app.get(`/api/details/name`,  (Request: any, Response: any): any =>{
+    let detail:any = {
+        firstName: "Elijah Owusu Boahene",
+        lastName: "Owusu",
+        HNGi7ID: "HNG-01077",
+        email: "boahen.cos@gmail.com"
+    }; 
+    Response.json(detail)
+       
+});
+
+// given a string length 1 to 1000, lowercase letters, find the first 
+// non-repeating character in the string.
+
+

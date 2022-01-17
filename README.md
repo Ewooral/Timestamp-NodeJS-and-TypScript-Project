@@ -2,7 +2,7 @@
 
 * initialise an empty project using the yarn init command
 * initialise the TypeScript project using npx tsc --init
-* install the followwing package or dependencies
+* install the followwing packages or dependencies
 
 
 # To run the Server:
